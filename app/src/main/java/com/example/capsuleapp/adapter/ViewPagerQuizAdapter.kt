@@ -129,6 +129,7 @@ class ViewPagerQuizAdapter(private var Question:List<QuizQuestion>, private val 
             }
         }
 
+
     }
 
     interface QuizResultClickListener {

@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity(){
             override fun onTick(millisUntilFinished: Long) {
                 val minutes = TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished)
                 val seconds = TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) - TimeUnit.MINUTES.toSeconds(minutes)
-                timeConsume = String.format("%02d:%02d", 9-minutes,(1000*60-seconds) )
+                timeConsume = String.format("%02d:%02d", 9-minutes,seconds )
                 val timeLeft = String.format("%02d:%02d", minutes, seconds)
                 countdownText.text = "$timeLeft min"
             }
