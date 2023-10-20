@@ -125,7 +125,7 @@ class ViewPagerQuizAdapter(private var Question:List<QuizQuestion>, private val 
                 }
             }
             else{
-                Toast.makeText(mainActivity,"Please sselect option",Toast.LENGTH_SHORT).show()
+                Toast.makeText(mainActivity,"Please select option",Toast.LENGTH_SHORT).show()
             }
         }
 
