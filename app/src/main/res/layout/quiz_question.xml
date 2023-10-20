@@ -12,9 +12,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:text="slkn cslfnsen innd nfd awopdjav sjido jsdoi pdjcpk"
-        android:textSize="25dp"
-
-
+        android:textSize="20sp"
         android:background="@drawable/text_border"
         android:layout_marginTop="15dp"
         android:layout_marginStart="15dp"
@@ -74,7 +72,6 @@
         app:layout_constraintStart_toStartOf="@id/tv_option2"
         app:layout_constraintEnd_toEndOf="@id/tv_option2"
         app:layout_constraintBottom_toBottomOf="@id/tv_option2"
-
         app:cardCornerRadius="5dp"
         app:cardBackgroundColor="@color/option_bg_2"/>
 
@@ -95,7 +92,6 @@
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-
         app:layout_constraintTop_toBottomOf="@id/tv_option1"
         app:layout_constraintStart_toStartOf="@id/tv_option1"
         app:layout_constraintEnd_toEndOf="@id/tv_option1"
@@ -213,8 +209,8 @@
             android:text="CHECK ANSWER"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:paddingStart="30dp"
-            android:paddingEnd="30dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="20sp"
@@ -260,7 +256,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:backgroundTint="@color/button_blue_bg"
-        android:layout_margin="40dp"
+        android:layout_margin="20dp"
         android:id="@+id/quiz_result">
         <TextView
             android:layout_width="wrap_content"
