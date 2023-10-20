@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="option_bg_1">#fffcc4</color>
+    <color name="option_bg_2">#f0ca72</color>
+    <color name="tv_option">#FF000000</color>
+    <color name="button_blue_bg">#45baf8</color>
+    <color name="quiz_bg">#f1fefe</color>
+    <color name="theme_color">#9ae6f7</color>
+    <color name="text_underline_selected">#6fbbdd</color>
+    <color name="text_underline_notselected">#d3e6f0</color>
+    <color name="progress_bar_selected">#2b9fe1</color>
+    <color name="progressbar_unselected">#45baf9</color>
+    <color name="Quiz_option_selected1">#1e81b0</color>
+    <color name="Quiz_option_selected2">#1b749e</color>
+    <color name="grey">#808080</color>
+
+
+</resources>
