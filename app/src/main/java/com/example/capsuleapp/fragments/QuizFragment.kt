@@ -145,6 +145,11 @@ class QuizFragment : Fragment() , ViewPagerQuizAdapter.QuizResultClickListener,
         val questionNo: TextView = requireActivity().findViewById(R.id.question_no)
         questionNo.text = "Question ${position + 1}/${questionList.size}"
     }
+    override fun onPause() {
+        super.onPause()
+        val parentViewPager = activity?.findViewById<ViewPager2>(R.id.view_pager)
+        parentViewPager?.isUserInputEnabled = true
+    }
 
 
 }

@@ -21,7 +21,7 @@ class CapsuleViewModel(application: Application) : AndroidViewModel(application)
         )
         //url="https://imgur.com/7bMqysJ"
      // Log.d("reached" ,"view model1234 ${URL}")
-        var textContent:String="Blood is a special fluid that is actually a connective tissue. We can call it a transport liquid which is pumped by the heart to different parts of the body, after which it comes back again to the heart. This is a process that happens continuously in your body, till your heart beats. The cells of the body are highly susceptible and they need a constant supply of blood. If its flow stops, death can occur within minutes.\n"
+        var textContent:String="Blood is a special fluid that is actually a connective tissue. We can call it a transport liquid which is pumped by the heart to different parts of the body, after which it comes back again to the heart. This is a process that happens continuously in your body, till your heart beats. The cells of the body are highly susceptible and they need a constant supply of blood. If its flow stops, death can occur within minutes."
 
 
         capsule = Capsule("Blood",url,textContent,questionList)

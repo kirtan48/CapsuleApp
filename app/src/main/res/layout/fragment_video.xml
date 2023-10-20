@@ -71,7 +71,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="NCERT LINE"
+                android:text="NOTES"
                 android:textColor="@color/white"
                 android:id="@+id/tv_ncert"
                 app:layout_constraintTop_toTopOf="parent"
@@ -83,7 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/tv_ncert"
-                android:text="Notes "
+                android:text="NCERT Lines "
                 app:layout_constraintStart_toStartOf="parent"
                 android:textColor="@color/white"
                 android:textStyle="bold"/>

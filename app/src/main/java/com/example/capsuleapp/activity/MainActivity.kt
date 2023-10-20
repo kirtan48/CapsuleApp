@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
@@ -28,6 +29,10 @@ class MainActivity : AppCompatActivity(){
         setContentView(R.layout.activity_main)
         val viewPager:ViewPager2 = findViewById(R.id.view_pager)
         val topic=findViewById<TextView>(R.id.topic)
+        val back:ImageView=findViewById(R.id.back_img)
+        back.setOnClickListener{
+            viewPager.currentItem=viewPager.currentItem-1
+        }
         val sharedPreferences: SharedPreferences =
             this.getSharedPreferences(sharedPrefFile, Context.MODE_PRIVATE)
         viewModel = ViewModelProvider(this).get(CapsuleViewModel::class.java)
